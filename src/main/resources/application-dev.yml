@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  tomcat:
+    basedir: ./
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+spring:
+  devtools:
+    livereload:
+      enabled: true
+  application:
+    name: edgeweb
+  freemarker:
+    suffix: .ftl
+    cache: true
